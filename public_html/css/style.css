@@ -151,8 +151,105 @@ footer .logo {
 .mt-20 {
     margin-top: -20px !important;
 }
+.mt20 {
+    margin-top: 20px !important;
+}
+.mt30 {
+    margin-top: 30px !important;
+}
+.mb30 {
+    margin-bottom: 30px !important;
+}
+.title-section {
+    font-weight: 700;
+    font-size: 34px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.boder-box {
+    width: 65px;
+    border-bottom: 3px #000 solid;
+    opacity: .15;
+    margin: 0 auto;
+    display: block;
+}
+.box-info-account {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;    
+}
+.box-info-account p {
+    margin-top: 10px;
+}
+
+span.bold{
+    font-size: 24px;
+    font-weight: 700;
+}
+.btn-info-box {
+    background-color: #92d8e5; /* layer fill content */
+    color: #24535b; /* text color */
+    font-size: 15px;
+    padding: 5px 25px;
+    min-width: 70%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.bg-info-account, .bg-invite-friend {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.select-invite-friend {
+    height: 50px !important;
+    background-color: #a53519 !important;
+    border: 0px !important;
+    color: #fff !important;
+    outline: none !important;
+}
+.area-invite-friend {
+    background-color: #a53519 !important;
+    border: 0px !important;
+    color: #fff !important;
+    outline: none !important;
+    clear: both;
+}
 
 
+.btn-invite {
+    background: #17c2a4;
+    box-shadow: 0 3px 0 0 rgb(17, 150, 127);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700 !important;
+    min-width: 80%;
+    height: 65px;
+    margin: 30px 0 30px 0 !important;
+    border-radius: 4px !important;
+}
+.btn-invite:hover,
+.btn-invite:focus,
+.btn-invite:active{
+    background: #1BD4B3 !important;
+    color: #fff !important;
+    outline: none;
+}
+.get-link {
+    background-color: #ff9d85; /* layer fill content */
+    color: #613428; /* text color */
+    font-size: 15px;
+    min-width: 80%;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px !important;
+}
+.get-link:hover{
+    text-decoration: none;
+}
 @media (max-width: 319px){
     
     header {
