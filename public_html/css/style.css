@@ -136,15 +136,11 @@ footer .logo {
 
 .bg-info-account {
     background-color: #2dacc4;
-    min-height: 150px !important;
-    height: 100%;
     display: block;
     position: relative
 }
 .bg-invite-friend {
     background-color: #e66a4b;
-    min-height: 150px !important;
-    height: 100%;
     display: block;
     position: relative
 }
@@ -201,6 +197,10 @@ span.bold{
     color: #fff;
     font-size: 18px;
     font-weight: 400;
+    min-height: 690px !important;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .select-invite-friend {
@@ -209,6 +209,8 @@ span.bold{
     border: 0px !important;
     color: #fff !important;
     outline: none !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
 }
 .area-invite-friend {
     background-color: #a53519 !important;
@@ -216,12 +218,12 @@ span.bold{
     color: #fff !important;
     outline: none !important;
     clear: both;
+    font-size: 18px !important;
+    font-weight: 400 !important;
 }
-
-
 .btn-invite {
     background: #17c2a4;
-    box-shadow: 0 3px 0 0 rgb(17, 150, 127);
+    box-shadow: 0 5px 0 0 rgb(17, 150, 127);
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700 !important;
@@ -246,10 +248,126 @@ span.bold{
     display: inline-block;
     padding: 5px;
     border-radius: 4px !important;
+    cursor: pointer;
 }
 .get-link:hover{
     text-decoration: none;
 }
+.color-group {
+    color: #3b4761 !important;
+}
+
+section.group-me {
+    background-color: #e7f1f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+section.group-me p {
+    margin-top: 15px;
+    line-height: 21px;
+}
+.invite-code-input {
+    height: 55px !important;
+    font-size: 18px;
+    color: #3b4761 !important;
+    background-color: #fff;
+    -moz-box-shadow: inset 2px 4px 1px rgba(0,0,1,.1); 
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.addon-code-input {
+    background-color: #e66a4b !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    box-shadow:  inset 0 -5px 0 0 #C55A3F;
+    -moz-box-shadow: inset 0 -5px 0 0 #C55A3F;
+    -webkit-box-shadow: inset 0 -5px 0 0 #C55A3F;
+    text-transform: uppercase;
+    border: 0px !important;
+    font-weight: 700 !important;
+    cursor: pointer;
+}
+.addon-code-input:hover {
+    background-color: #FD8466  !important;
+}
+
+.list-member {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    width: 100%;
+    
+}
+.list-member > li {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.list-member > li > div {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px 10px 5px 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.list-member > li > div > span.code {
+    color: #3b4761; /* text color */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.list-member > li > div  span.date-link {
+    color: #3b4761; /* text color */
+    font-size: 14px;
+    background-color: #e7f1f7;
+    padding: 5px;
+    line-height: 25px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    min-width: 145px;
+    width: auto;
+    display: inline-block;
+}
+.list-member > li > div span.point {
+    color: #3b4761; /* text color */
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fffae1;
+    padding: 5px;
+    line-height: 25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    min-width: 100px;
+    width: auto;
+    display: inline-block;
+    margin-left: -5px;
+    text-align: right;
+}
+.list-member > li > div span.point img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.view-all-member {
+    background-color: #bcd0df; 
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #3b4761;
+    font-size: 15px;
+    padding: 5px;
+    min-width: 290px;
+    width: 290px;
+    margin: 0 auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
 @media (max-width: 319px){
     
     header {
