@@ -74,7 +74,6 @@ nav {
 .menu li a:hover {
     text-decoration: none;
     color:#fadf46;
-    //border-bottom: 2px #f9682c solid;
 }
 img.avarta {
     border: 3px #fff solid;
@@ -225,7 +224,11 @@ span.bold{
     color: #fff !important;
     outline: none !important;
     font-size: 18px !important;
-    font-weight: 400 !important;
+    font-weight: 400 !important;    
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-appearance:caret !important;
 }
 .area-invite-friend {
     background-color: #a53519 !important;
