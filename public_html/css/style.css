@@ -151,7 +151,7 @@ img.avarta {
     border: 2px #fff solid;
     width: 40px;
     height:40px;
-    margin: -15px 0px;
+    margin: -10px 0px;
     padding: 0;
     display: block;
     float: left;
@@ -595,15 +595,17 @@ section.basic img:hover {
 }
 a i.fa-bars{
     padding-left: 15px;
-    padding-top: 5px;
+    padding-top: 0px;
+    position: absolute;
 }
 @media (max-width: 319px){
     
     header {
-        height: 80px;
-        padding-top: 10px;
+        height: 70px;
+        padding-top: 20px;
         background-color: #164777;
         background-image: none;
+        margin-bottom: 20px
     }
     header a.banner img {
         width: 35%;
@@ -643,15 +645,23 @@ a i.fa-bars{
     }
     .bg-info-account, .bg-invite-friend {
         font-size: 14px;
+        min-height: auto !important;
+    }
+    .img-box-gift img {
+        width: 30% !important;
+    }
+    .title-section {
+        font-size: 30px !important;
     }
 }
 @media (min-width: 320px) and (max-width:479px) {
     
     header {
-        height: 80px;
-        padding-top: 10px;
+        height: 70px;
+        padding-top: 20px;
         background-color: #164777;
         background-image: none;
+        margin-bottom: 20px;
     }
     header a.banner img {
         width: 35%;
@@ -686,7 +696,6 @@ a i.fa-bars{
     }
     .text-banner{
         font-size: 20px;
-        margin-left: -10%;
     }
     .bg-info-account img {
         width: 60%;
@@ -696,14 +705,22 @@ a i.fa-bars{
     }
     .bg-info-account, .bg-invite-friend {
         font-size: 14px;
+        min-height: auto !important;
+    }
+    .img-box-gift img {
+        width: 30% !important;
+    }
+    .title-section {
+        font-size: 30px !important;
     }
 }
 @media (min-width: 480px)and (max-width: 767px){
     header {
-        height: 80px;
-        padding-top: 10px;
+        height: 70px;
+        padding-top: 20px;
         background-color: #164777;
         background-image: none;
+        margin-bottom: 20px;
     }
     header a.banner img {
         width: 30%;
@@ -721,18 +738,31 @@ a i.fa-bars{
     .list-member > li > div {
         margin-left: 0px;
     }
+    .bg-info-account, .bg-invite-friend {
+        min-height: auto !important;
+    }
+    .img-box-gift img {
+        width: 25% !important;
+    }
+    .title-section {
+        font-size: 30px !important;
+    }
     
 }
 @media (min-width: 768px) and (max-width:991px){
     header {
-        height: 80px;
-        padding-top: 10px;
+        height: 70px;
+        padding-top: 20px;
+        margin-bottom: 20px;
     }
     header a.banner img {
         width: 20%;
     }
     .list-tab-gif > li {
         font-size: 14px;
+    }
+    .title-section {
+        font-size: 30px !important;
     }
     
 }
