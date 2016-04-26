@@ -44,6 +44,78 @@ nav {
     box-shadow: 0px 5px 20px -5px rgba(163,160,163,1);
 
 }
+.avarta-mobile {
+    position: absolute !important;
+    right:10px;
+    top:25px;
+}
+.text-banner {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px 0px 0px -15px;
+}
+.text-banner:hover,
+.text-banner:focus,
+.text-banner:active{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-mobile {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9;
+    top: 49px !important;
+}
+.menu-mobile li {
+    /* float: left; */
+    background: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    padding: 0px;
+}
+.menu-mobile li:hover, .menu-mobile li a:hover {
+    background: none !important;
+    color:#f9682c !important;
+}
+.ico-mobile {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/bg-ico.png); 
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.ico-vip-2015 {
+    background-position: -98px -275px;    
+    float: left;
+}
+.ico-vip-gift {
+    background-position: -145px -242px;    
+    float: left;
+}
+.ico-vip-news {
+    background-position: -142px -281px;    
+    float: left;
+}
+.ico-vip-search {
+    background-position: -98px -317px;    
+    float: left;
+}
+.ico-vip-support {
+    background-position: -146px -320px;    
+    float: left;
+}
+.icon-vip-mobile {
+    position: absolute;    
+    left: -10px;
+    width: 20px;
+    top: -10px;
+}
 #menu-head {
     float: none;
     text-align: center;
@@ -76,10 +148,10 @@ nav {
     color:#fadf46;
 }
 img.avarta {
-    border: 3px #fff solid;
-    width: 44px;
-    height:44px;
-    margin: -9px 0px;
+    border: 2px #fff solid;
+    width: 40px;
+    height:40px;
+    margin: -15px 0px;
     padding: 0;
     display: block;
     float: left;
@@ -120,7 +192,7 @@ footer .logo {
 .icon-vip-mobile {
     position: absolute;
     left: -10px;
-    width: 24px;
+    width: 20px;
     top: -15px;
 }
 .account-info {
@@ -138,6 +210,7 @@ footer .logo {
     display: block;
     position: relative
 }
+
 .bg-invite-friend {
     background-color: #e66a4b;
     display: block;
@@ -520,11 +593,17 @@ section.basic img:hover {
 .icon-gift-mobile {
     width: 40%;
 }
+a i.fa-bars{
+    padding-left: 15px;
+    padding-top: 5px;
+}
 @media (max-width: 319px){
     
     header {
         height: 80px;
         padding-top: 10px;
+        background-color: #164777;
+        background-image: none;
     }
     header a.banner img {
         width: 35%;
@@ -553,12 +632,26 @@ section.basic img:hover {
         width: 50%;
         margin-bottom: 20px;
     }
+    .text-banner{
+        font-size: 16px;
+    }
+    .bg-info-account img {
+        width: 60%;
+    }
+    .btn-info-box {
+        font-size: 13px;
+    }
+    .bg-info-account, .bg-invite-friend {
+        font-size: 14px;
+    }
 }
 @media (min-width: 320px) and (max-width:479px) {
     
     header {
         height: 80px;
         padding-top: 10px;
+        background-color: #164777;
+        background-image: none;
     }
     header a.banner img {
         width: 35%;
@@ -591,11 +684,26 @@ section.basic img:hover {
         width: 50%;
         margin-bottom: 20px;
     }
+    .text-banner{
+        font-size: 20px;
+        margin-left: -10%;
+    }
+    .bg-info-account img {
+        width: 60%;
+    }
+    .btn-info-box {
+        font-size: 13px;
+    }
+    .bg-info-account, .bg-invite-friend {
+        font-size: 14px;
+    }
 }
 @media (min-width: 480px)and (max-width: 767px){
     header {
         height: 80px;
         padding-top: 10px;
+        background-color: #164777;
+        background-image: none;
     }
     header a.banner img {
         width: 30%;
@@ -614,7 +722,6 @@ section.basic img:hover {
         margin-left: 0px;
     }
     
-    
 }
 @media (min-width: 768px) and (max-width:991px){
     header {
@@ -622,7 +729,7 @@ section.basic img:hover {
         padding-top: 10px;
     }
     header a.banner img {
-        width: 30%;
+        width: 20%;
     }
     .list-tab-gif > li {
         font-size: 14px;
