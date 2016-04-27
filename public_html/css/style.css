@@ -290,27 +290,27 @@ span.bold{
     padding-bottom: 30px;
 }
 
-.select-invite-friend {
+.form-vip .select-invite-friend {
     height: 50px !important;
-    background-color: #a53519 !important;
-    border: 0px !important;
-    color: #fff !important;
-    outline: none !important;
-    font-size: 18px !important;
-    font-weight: 400 !important;    
-    box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    -moz-appearance:caret !important;
+    background-color: #a53519 ;
+    border: 1px solid transparent;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;    
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-appearance:caret;
 }
-.area-invite-friend {
-    background-color: #a53519 !important;
-    border: 0px !important;
-    color: #fff !important;
-    outline: none !important;
+.form-vip .area-invite-friend {
+    background-color: #a53519;
+    border: 1px solid transparent;
+    color: #fff ;
+    outline: none ;
     clear: both;
-    font-size: 18px !important;
-    font-weight: 400 !important;
+    font-size: 18px ;
+    font-weight: 400 ;
 }
 .btn-invite {
     background: #17c2a4;
@@ -360,7 +360,7 @@ section.group-me p {
 }
 .invite-code-input {
     height: 55px !important;
-    font-size: 18px;
+    font-size: 18px !important;
     color: #3b4761 !important;
     background-color: #fff;
     -moz-box-shadow: inset 2px 4px 1px rgba(0,0,1,.1); 
@@ -480,21 +480,6 @@ section.active-member {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
-.input-active {
-    -moz-border-radius: 4px !important;
-    -webkit-border-radius: 4px !important;
-    border-radius: 4px !important; /* border radius */
-    -moz-background-clip: padding !important;
-    -webkit-background-clip: padding-box !important;
-    background-clip: padding-box !important;/* prevents bg color from leaking outside the border */
-    background-color: #188da3 !important;
-    border: none !important;
-    color: #fff !important;
-    font-family: 'Roboto Condensed', sans-serif;
-    height: 50px !important;
-    font-weight: 300;
-}
 .form-control::-ms-input-placeholder,
 .form-control::-moz-placeholder,
 .form-control:-moz-placeholder,
@@ -598,6 +583,23 @@ a i.fa-bars{
     padding-top: 0px;
     position: absolute;
 }
+.form-active input {
+    border: 1px solid transparent;
+    -moz-border-radius: 4px ;
+    -webkit-border-radius: 4px ;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #188da3;
+    color: #fff !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 50px !important;
+    font-weight: 300;
+} 
+
+
+
 @media (max-width: 319px){
     
     header {
