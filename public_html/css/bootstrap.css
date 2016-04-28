@@ -2583,15 +2583,15 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
-   color: #adadad;
+   color: #9ed6e0;
   
 }
 .form-control:-ms-input-placeholder {
-  color: #adadad;
+  color: #9ed6e0;
   
 }
 .form-control::-webkit-input-placeholder {
-   color: #adadad;
+   color: #9ed6e0;
   
 }
 .form-control::-ms-expand {
@@ -2894,10 +2894,10 @@ select[multiple].input-lg {
 .has-error.checkbox label,
 .has-error.radio-inline label,
 .has-error.checkbox-inline label {
-  color: #a94442;
+  color: #ff6e2e;
 }
 .has-error .form-control {
-  border-color: #a94442;
+  border-color: #ff6e2e;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
@@ -2907,12 +2907,12 @@ select[multiple].input-lg {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
 }
 .has-error .input-group-addon {
-  color: #a94442;
-  border-color: #a94442;
+  color: #ff6e2e;
+  border-color: #ff6e2e;
   background-color: #f2dede;
 }
 .has-error .form-control-feedback {
-  color: #a94442;
+  color: #ff6e2e;
 }
 .has-feedback label ~ .form-control-feedback {
   top: 25px;
